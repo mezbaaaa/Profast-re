@@ -1,2 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 @plugin "daisyui";
+
+.syne-font {
+    font-family: "Urbanist", sans-serif;
+}
+
+/* ::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: #CAEB66;
+}
+::-webkit-scrollbar-thumb{
+    background: #CAEB66;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #CAEB66;
+} */

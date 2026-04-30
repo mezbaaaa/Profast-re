@@ -4,7 +4,7 @@ import Navbar from '../components/header/Navbar';
 
 const Rootlayouts = () => {
     return (
-        <div className='w-[1500px] mx-auto  '>
+        <div className='w-[1500px] mx-auto syne-font '>
             <header>
                 <Navbar></Navbar>
             </header>
