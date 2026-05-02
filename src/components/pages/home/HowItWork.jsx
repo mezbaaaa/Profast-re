@@ -26,7 +26,7 @@ const services = [
 
 const HowItWork = () => {
     return (
-        <div className='mt-8 mx-auto w-[1300px]'>
+        <div className='mt-10 mx-auto w-[1300px]'>
             <div>
                 <p className='text-[#03373D] text-3xl font-bold '>How it Works</p>
             </div>
@@ -35,7 +35,7 @@ const HowItWork = () => {
                   services.map((services)=>{
                     const Icon= services.icon;
                   return(
-                    <div key={services.title} className='border px-7 py-5 rounded-xl bg-white/70 border-gray-500/60 '>
+                    <div key={services.title} className='border px-7 py-5 rounded-xl bg-white/70 border-gray-500/60 shadow-md '>
                       <Icon className='w-9 h-9 '></Icon>
                       <p className='text-xl text-[#03373D] font-bold my-4 '>{services.title} </p>
                       <p className='text-base font-medium '>{services.description} </p>
